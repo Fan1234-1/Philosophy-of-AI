@@ -19,11 +19,10 @@ The philosophy and engineering repositories are designed as two halves of a whol
 
 ## Navigation
 
-- [VOLUME I: ToneSoul Foundations](./VOLUME_I.md)  
-- [VOLUME II: Dynamics and Fields](./VOLUME_II.md)  
-- [VOLUME III: Mediation and Responsibility](./VOLUME_III.md)  
-- [VOLUME IV: Evolutionary Pathways](./VOLUME_IV.md)  
-- [VOLUME V: Theoretical Closure and Coherent Cosmos](./VOLUME_V.md)  
-- [APPENDIX: Technical Bridges](./APPENDIX.md)  
-
+- [Volume I – Foundations](./VOLUME_I.md)
+- [Volume II – Consciousness & Cycles](./VOLUME_II.md)
+- [Volume III – Responsibility & Ethics](./VOLUME_III.md)
+- [Volume IV – Evolution & History](./VOLUME_IV.md)
+- [Volume V – Closure & Singularity](./VOLUME_V.md)
+- [Appendix: Oceanic Cheat Sheet](./APPENDIX.md)
 Each volume expands on the themes outlined here, connecting abstract concepts to concrete practices. 
