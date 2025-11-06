@@ -246,3 +246,51 @@ Closure & Singularity (整合)
 | 版本 | 日期 | 變動 |
 |-----|------|------|
 | 1.0 | 2025-11-06 | 初始版本 - 定義五個基本限界上下文 |
+
+
+---
+
+## Guardian Protocol v1.0 與 Bounded Contexts 的整合
+
+### Guardian Protocol 界限上下文映射
+
+本節說明 Guardian Protocol v1.0 的 7 個倉庫如何映射到 Philosophy-of-AI 的 5 個 Bounded Contexts：
+
+| Guardian Protocol 倉庫 | 主要 Bounded Context | 次要 Bounded Context | 核心職責 |
+|---|---|---|---|
+| Philosophy-of-AI | Foundational Philosophy | Closure & Singularity | G-P-A-R 框架、P0-P4 優先級 |
+| ai-soul-spine-system | Agency & Intentionality | Epistemology & Reasoning | 責任追蹤、決策機制 |
+| tonesoul-codex | Agency & Intentionality | Closure & Singularity | 行動承諾、自主性 |
+| tone-soul-integrity | Epistemology & Reasoning | Foundational Philosophy | 知識驗證、完整性檢查 |
+| governable-ai | Agency & Intentionality | Evolution & History | 決策自主性、治理演進 |
+| Genesis-ChainSet0.1 | Closure & Singularity | All Contexts | 系統整合、終極狀態 |
+| Knowledge Graph | All Contexts | All Contexts | 統一認識論、全局視角 |
+
+### 信息流向整合
+
+Guardian Protocol 的信息流與 Philosophy-of-AI 的層次結構相對應：
+
+```
+Foundational Philosophy (基礎哲學)
+        ↓
+        ├→ Agency & Intentionality (責任與行動)
+        │       ↓
+        ├→ Epistemology & Reasoning (知識與驗證)
+        │       ↓
+        ├→ Evolution & History (治理演進)
+        │       ↓
+        └→ Closure & Singularity (系統完善)
+```
+
+### 治理規則對齊
+
+- 所有新增的 Guardian Protocol 內容應標示其所屬的 Bounded Context
+- 使用前綴標記：`[GP-FP]`, `[GP-AI]`, `[GP-ER]`, `[GP-EH]`, `[GP-CS]`
+- 跨倉庫決策應參考相應的 Bounded Context 的治理規則
+
+### 版本同步
+
+| 版本 | 日期 | 變動 |
+|---|---|---|
+| 1.0 | 2025-11-06 | 初始版本 |
+| 1.1 | 2025-11-06 | 整合 Guardian Protocol v1.0 結構 |
